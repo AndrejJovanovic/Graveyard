@@ -1,0 +1,16 @@
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\bin\Debug\Graveyard.exe.config
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\bin\Debug\Graveyard.exe
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\bin\Debug\Graveyard.pdb
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.csprojResolveAssemblyReference.cache
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.Form1.resources
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.Properties.Resources.resources
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.csproj.GenerateResource.Cache
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.exe
+c:\users\andry\documents\visual studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.pdb
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\bin\Debug\ARSoft.Tools.Net.dll
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\bin\Debug\ARSoft.Tools.Net.xml
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\bin\Debug\Graveyard.exe.manifest
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\bin\Debug\Graveyard.application
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.exe.manifest
+C:\Users\andry\Documents\Visual Studio 2015\Projects\Graveyard\Graveyard\obj\Debug\Graveyard.application

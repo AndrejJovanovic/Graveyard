@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Graveyard.exe" version="1.0.0.0" publicKeyToken="918705056bab7270" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Graveyard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Graveyard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ARSoft.Tools.Net.dll" size="299008">
+      <assemblyIdentity name="ARSoft.Tools.Net" version="2.2.8.0" publicKeyToken="1940454CD762EC57" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cUvfB7tmSop8rKPDy58gmO9uRobMabLgxbTzc12Ue7c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="2236416">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.1.0" publicKeyToken="0E99375E54769942" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GYW4W7RL5sbq814C7xHiOokOgJuOwuUyEKStWoWybHA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Graveyard.exe" size="12768">
+      <assemblyIdentity name="Graveyard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NnmbGpD0lX8skem1rIs9z0soFcjbkW7NYlnaUs/vvcQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Graveyard.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CK75V7P\andry" issuerKeyHash="1720721b34986973658d111dce7072ee96f5ae00" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cQas07RhdOgoJNXDFlFuPk/88nuegHdmKDfnXSnHRaA=</DigestValue></Reference></SignedInfo><SignatureValue>Ihn+na8SX0pDXMnB0EeZQAXoiI7wyH0ruFuQw16rz3aCELnAxpPFUYuAnFrXK1ZV/s1OMsYTl40R/UHUFYc+HtXGd678vAsjRu/OqpnzRs/YWMCki2+pgbvCDNYKlIbjXAlSY9sdBEyr6ySkZAlYfo7IE4WFtIZCrjOg8rAoWAs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uSb1YohgYgQ6WgZrunXJHZdUDQGXzBGYdQzrrm4eDUw/FpNLZhuTif4mqDo0qHAu5rn5iQpGEeE6QuMjXQOm+CO9UJCJ1z6F6f6RDS0zKPj/aBc9OHFCt02p/Cezo1G0PK4Foi/TmCuUGqE+cGl7QKyftz123GL4mxuFwo4GSfs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a045c7295de737286677809e7bf2fc4f3e6e5116c3d52428e87461b4d3ac0671" Description="" Url=""><as:assemblyIdentity name="Graveyard.exe" version="1.0.0.0" publicKeyToken="918705056bab7270" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CK75V7P\andry</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BsFIRyjSkQ+cBuGaZosmfYnnAyCAU+au6Iw07kUb8A0=</DigestValue></Reference></SignedInfo><SignatureValue>Q46uHZZ2b6y3/wN0LBlCaxi1fnqaDM7oiJ9HRzBlq587lhKmY0UtTQWtRGPQs3D1uDBd5pbuiMExEox/fRYw/2BI+Jn+TlCfgWilnOTwmP1FwVxCCzmIr/TevLXJj/jVpsHbyd7euugQHzFmzIL0DYb600oIBHcHuMofz8VzXNY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uSb1YohgYgQ6WgZrunXJHZdUDQGXzBGYdQzrrm4eDUw/FpNLZhuTif4mqDo0qHAu5rn5iQpGEeE6QuMjXQOm+CO9UJCJ1z6F6f6RDS0zKPj/aBc9OHFCt02p/Cezo1G0PK4Foi/TmCuUGqE+cGl7QKyftz123GL4mxuFwo4GSfs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQaLMLbNKIFbhJ4QLdKuo0MTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMASwA3ADUAVgA3AFAAXABhAG4AZAByAHkwHhcNMTcwNDI2MjAxMDAzWhcNMTgwNDI3MDIxMDAzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMASwA3ADUAVgA3AFAAXABhAG4AZAByAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALkm9WKIYGIEOloGa7p1yR2XVA0Bl8wRmHUM665uHg1MPxaTS2Ybk4n+Jqg6NKhwLua5+YkKRhHhOkLjI10DpvgjvVCQidc+hen+kQ0tMyj4/2gXPThxQrdNqfwns6NRtDyuBaIv05grlBqhPnBpe0Csn7c9dtxi+JsbhcKOBkn7AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAiWeMmyzNnFuuHdUjdgdnpvtIShm64M+vrodJd5YRyjcln4/Vf8DXbnfUfnZQzXol03qef/86gioaw3WYMo/4NEmP0DSvCHrc9e+oAjgkTo6mqhHMvHrePEC7qC9PW9Oi1pOeJQQuF+egJoLlGOs3hHJksI0+FHZDXK8evwbxAAM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
